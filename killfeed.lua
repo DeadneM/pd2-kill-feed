@@ -73,8 +73,8 @@ if not KillFeed then
         assist_text = " " .. KillFeed:get_localized_text("KillFeed_text_and") .. " "
         kill_text = attacker_name .. (show_assist and (assist_text .. assist_name) or "") .. " " .. KillFeed:get_localized_text("KillFeed_text_" .. status, show_assist) .. " " .. target_name
       elseif KillFeed.settings.style == 3 then
-        local slang = KillFeed.killtexts and table.random(KillFeed.killtexts) or "killed"
         assist_text = " " .. KillFeed:get_localized_text("KillFeed_text_and") .. " "
+		local slang = table.random(KillFeed:get_localized_text("KillFeed_text_slang"))
         kill_text = attacker_name .. (show_assist and (assist_text .. assist_name) or "") .. " " .. slang .. " " .. target_name
       end
       local text = self._panel:text({
@@ -289,15 +289,6 @@ if not KillFeed then
       for k, v in pairs(data) do
         self.settings[k] = v
       end
-    end
-    local fname = self.save_path .. "killtexts.json"
-    if not io.file_is_readable(fname) then
-      fname = self.mod_path .. "killtexts.json"
-    end
-    file = io.open(fname)
-    if file then
-      self.killtexts = json.decode(file:read("*all")) or {}
-      file:close()
     end
   end
   

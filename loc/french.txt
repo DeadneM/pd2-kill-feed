@@ -1,6 +1,6 @@
 {
   "KillFeed_menu_main_name" : "Kill Feed",
-  "KillFeed_menu_main_desc" : "Modifie les options de la KillFeed",
+  "KillFeed_menu_main_desc" : "Modifie les options de KillFeed",
   "KillFeed_menu_x_align_name" : "Alignement horizontal",
   "KillFeed_menu_y_align_name" : "Alignement vertical",
   "KillFeed_menu_align_left" : "Gauche",
@@ -13,6 +13,7 @@
   "KillFeed_menu_style_name" : "Style",
   "KillFeed_menu_style_icon" : "Icône",
   "KillFeed_menu_style_text" : "Texte",
+  "KillFeed_menu_style_slang" : "Argot",
   "KillFeed_menu_font_size_name" : "Taille de la Police",
   "KillFeed_menu_max_shown_name" : "Nombre maximal de messages",
   "KillFeed_menu_lifetime_name" : "Durées des messages",
@@ -20,7 +21,9 @@
   "KillFeed_menu_fade_out_time_name" : "Temps de disparition des messages",
   "KillFeed_menu_show_player_kills_name" : "Montre mes kills",
   "KillFeed_menu_show_crew_kills_name" : "Montre les kills de l'équipe",
-  "KillFeed_menu_show_team_ai_kills_name" : "Montre les kills des bots alliés",
+  "KillFeed_menu_show_team_ai_kills_name" : "Montre les kills des bots",
+  "KillFeed_menu_show_sentry_kills_name" : "Montre les kills des tourelles",
+  "KillFeed_menu_show_joker_kills_name" : "Montre les kills des flics convertis",
   "KillFeed_menu_show_npc_kills_name" : "Montre les kills des NPC",
   "KillFeed_menu_show_assists_name" : "Montre les assistances",
   "KillFeed_menu_special_kills_only_name" : "Ne montre uniquement les Kills Spéciaux",
@@ -28,5 +31,6 @@
   "KillFeed_text_kill_pl" : "ont tué",
   "KillFeed_text_destroy" : "à détruit",
   "KillFeed_text_destroy_pl" : "ont détruit",
-  "KillFeed_text_and" : "et"
+  "KillFeed_text_and" : "et",
+  "KillFeed_text_slang" : ["casse", "zigouille", "sale", "montre de l'arrogance envers", "fait un trou dans", "regarde mourrir", "s'amuse avec le corps de", "cuisine", "fait le baiser de la mort à", "reduit au silence", "fume", "prends soin de", "démocratise", "extermine", "mate un porno avec", "DDOS", "fus-ro-DAH", "laisse une bonne impression à", "prend l'avantage sur", "rend hommage à", "twerk sur", "donne sa chance à", "déporte", "était trop puissant pour", "montre ses nibards à", "envoie de l'amour à", "désactive", "banni", "kick", "lance une pokéball sur", "massacre", "accepte la mort de", "aide au suicide de", "moleste", "pleure la perte de", "dit bonjour à", "perd", "a crashé le jeu de", "fini", "masse les épaules de", "serre le cou de", "enlève ses chaussettes et les jette sur", "fait un dessin caricatural de", "hote la vie de", "joue au poker avec", "joue à la roulette russe avec", "devore l'âme de", "bois le sang de", "n'invite pas à son anniverssaire", "apprend la mort de", "pouce rouge sur", "fait un bisou sur les fesses de", "utilise charme sur", "attaque éclair", "perfore", "jette une perceuse sur", "explique l'ésquive à", "fait des expériences sur", "ban le compte steam de", "inflige de gros dégats sur", "gâche ses balles sur", "rend service à", "pénètre", "fiste un", "apprend le respect à", "fait une faveur à", "contrôle l'esprit de", "met un doigt dans", "quitte", "n'est plus en couple avec", "baise la mère de", "rempli de terreur", "est faché avec", "utlise écriture inclusive sur", "explique la vie à", "explique l'écriture inclusive à", "utilise la force sur", "fait boire de la javel à", "spoile la fin de game of thrones à", "ne respecte pas", "vide son chargeur sur", "n'oublie jamais un enculé comme", "laisse un gout amer dans la bouche de", "met des fleurs sur la tombe de"]
 }
